@@ -1,0 +1,919 @@
+body {
+  overscroll-behavior-block: contain;
+  container-type: inline-size;
+}
+.back,
+.sidebar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.back {
+  background: linear-gradient(180deg, #90aea7, #000);
+  width: 1921px;
+  height: 719px;
+}
+.sidebar-child {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-black);
+}
+.playlists,
+.rectangle {
+  position: absolute;
+  left: 10.43%;
+}
+.rectangle {
+  height: 0.09%;
+  width: 80%;
+  top: 32.22%;
+  right: 9.57%;
+  bottom: 67.69%;
+  background-color: var(--color-gray-100);
+}
+.playlists {
+  top: 21.11%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-darkgray);
+}
+.frame-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(139.33deg, #27148f, #605f9e 65.22%, #86979a);
+}
+.vector-icon {
+  position: absolute;
+  height: 39.97%;
+  width: 43.71%;
+  top: 29.77%;
+  right: 28.15%;
+  bottom: 30.26%;
+  left: 28.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame1 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 92px);
+  width: 32px;
+  height: 32px;
+}
+.rectangle1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 16px;
+}
+.liked-songs {
+  position: absolute;
+  width: 58.82%;
+  top: calc(50% - 9px);
+  left: 0;
+  line-height: 16px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.frame2 {
+  position: absolute;
+  width: 58.62%;
+  top: calc(50% - 8px);
+  right: 10.34%;
+  left: 31.03%;
+  height: 16px;
+  overflow: hidden;
+}
+.frame,
+.frame-item,
+.rectangle2 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.frame {
+  height: 3.89%;
+  top: 27.59%;
+  bottom: 68.52%;
+}
+.frame-item,
+.rectangle2 {
+  top: 0;
+  height: 42px;
+}
+.frame-item {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-white);
+  opacity: 0.7;
+}
+.frame4,
+.vector-icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon1 {
+  height: 43.75%;
+  width: 43.75%;
+  top: 28.13%;
+  right: 28.13%;
+  bottom: 28.13%;
+  left: 28.13%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame4 {
+  top: 5px;
+  left: calc(50% - 92px);
+  width: 32px;
+  height: 32px;
+}
+.create-playlist {
+  position: absolute;
+  width: 41.38%;
+  top: calc(50% - 9px);
+  left: 31.03%;
+  line-height: 16px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.frame3,
+.rectangle3 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.frame3 {
+  height: 3.89%;
+  top: 23.7%;
+  bottom: 72.41%;
+}
+.rectangle3 {
+  top: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  height: 40px;
+}
+.frame-icon {
+  top: 8px;
+  left: calc(50% - 92px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frame-icon,
+.frame5,
+.home {
+  position: absolute;
+}
+.home {
+  top: calc(50% - 9px);
+  left: 25.93%;
+  line-height: 16px;
+}
+.frame5 {
+  height: 3.7%;
+  width: 93.91%;
+  top: 7.78%;
+  right: 2.61%;
+  bottom: 88.52%;
+  left: 3.48%;
+}
+.rectangle4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  height: 40px;
+}
+.your-library {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 25.93%;
+  line-height: 16px;
+  opacity: 0.7;
+}
+.frame6,
+.frame7,
+.logo-icon {
+  position: absolute;
+  height: 3.7%;
+  width: 93.91%;
+  top: 15.19%;
+  right: 2.61%;
+  bottom: 81.11%;
+  left: 3.48%;
+}
+.frame7,
+.logo-icon {
+  top: 11.48%;
+  bottom: 84.81%;
+}
+.logo-icon {
+  width: 56.96%;
+  top: 1.76%;
+  right: 32.61%;
+  bottom: 94.54%;
+  left: 10.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 1080px;
+}
+.rectangle-icon {
+  position: relative;
+  width: 158px;
+  height: 158px;
+  object-fit: cover;
+}
+.hot-hits-usa,
+.the-hottest-tracks {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.the-hottest-tracks {
+  font-size: var(--font-size-sm);
+  line-height: 16px;
+  color: var(--color-darkgray);
+}
+.hot-hits-usa-parent,
+.rectangle-parent {
+  width: 158px;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.rectangle-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+}
+.cardmain {
+  position: absolute;
+  top: 416px;
+  left: 1922px;
+  width: 190px;
+  height: 270px;
+  font-size: var(--font-size-base);
+}
+.rectangle6 {
+  position: absolute;
+  width: 2.08%;
+  top: 649px;
+  right: 42.5%;
+  left: 55.42%;
+  border-radius: 500px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  height: 40px;
+}
+.play-bar-child {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 2014px;
+  height: 1px;
+}
+.play-bar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 2013px;
+  height: 93px;
+}
+.rectangle7 {
+  position: absolute;
+  top: calc(50% - 1.59px);
+  left: calc(50% - 337.14px);
+  border-radius: 2.27px;
+  background-color: var(--color-darkgray);
+  width: 673.85px;
+  height: 4.55px;
+}
+.div,
+.div1 {
+  position: absolute;
+  top: calc(50% - 9.59px);
+  left: calc(50% - 371.14px);
+  line-height: 18.19px;
+  display: inline-block;
+  width: 27.28px;
+  height: 18.19px;
+}
+.div1 {
+  top: calc(50% - 8.59px);
+  left: calc(50% + 343.86px);
+}
+.rectangle-group {
+  position: absolute;
+  top: calc(50% + 12.41px);
+  left: calc(50% - 371.14px);
+  width: 742.28px;
+  height: 19.19px;
+}
+.group-child,
+.group-parent {
+  position: absolute;
+  top: calc(50% - 31.59px);
+  left: calc(50% - 117.14px);
+  width: 234px;
+  height: 34px;
+}
+.group-parent {
+  top: calc(50% - 26.5px);
+  left: calc(50% - 367.5px);
+  width: 742.28px;
+  height: 63.19px;
+}
+.hold-on {
+  position: absolute;
+  top: 12px;
+  left: 73px;
+  line-height: 18.19px;
+}
+.justin-bieber {
+  position: absolute;
+  top: 31px;
+  left: 74px;
+  font-size: var(--font-size-xs);
+  text-align: left;
+  opacity: 0.6;
+}
+.group-item {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 63px;
+  height: 64px;
+  object-fit: cover;
+}
+.icheart-icon {
+  position: absolute;
+  top: 18px;
+  left: 162px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.group-inner {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 17px;
+  height: 13px;
+}
+.group-child1,
+.rectangle-div {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 16px;
+  height: 2px;
+}
+.group-child1 {
+  top: 6px;
+  left: 10px;
+  width: 4px;
+  height: 3px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 16px;
+  height: 12px;
+  opacity: 0.5;
+}
+.icpip {
+  position: absolute;
+  top: 18px;
+  left: 195px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.hold-on-parent {
+  position: absolute;
+  top: 21px;
+  left: 15px;
+  width: 219px;
+  height: 60px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.play-bar-inner {
+  position: absolute;
+  top: 39px;
+  right: 9px;
+  width: 193px;
+  height: 25px;
+}
+.play-bar {
+  position: absolute;
+  top: 1026px;
+  left: -2px;
+  background-color: var(--color-white);
+  width: 1731px;
+  height: 93px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-darkgray);
+}
+.album-art-icon {
+  position: absolute;
+  top: 757px;
+  left: 0;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+.playlist-child {
+  position: absolute;
+  top: 402px;
+  left: 230px;
+  background-color: var(--color-black);
+  width: 1690px;
+  height: 585px;
+  opacity: 0.15;
+}
+.lorem-ipsum-dolor,
+.pop-right-now {
+  position: absolute;
+  letter-spacing: -0.02em;
+}
+.pop-right-now {
+  top: 221.5px;
+  left: 520.76px;
+  font-size: 90px;
+  font-weight: 900;
+}
+.lorem-ipsum-dolor {
+  top: 335px;
+  left: 520px;
+  line-height: 146.9%;
+  display: inline-block;
+  width: 426.21px;
+  opacity: 0.7;
+}
+.likes {
+  top: 360px;
+  left: 581px;
+  opacity: 0.7;
+}
+.likes,
+.songs-5-hr,
+.spotify {
+  position: absolute;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.02em;
+}
+.songs-5-hr {
+  top: 360px;
+  left: 681px;
+  opacity: 0.7;
+}
+.spotify {
+  top: 359px;
+  left: 520px;
+  line-height: 146.9%;
+}
+.playlist-inner,
+.playlist-item {
+  position: absolute;
+  top: 370px;
+  left: 573px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 4px;
+  height: 4px;
+  opacity: 0.7;
+}
+.playlist-inner {
+  left: 672px;
+}
+.icon {
+  position: absolute;
+  top: 113.92px;
+  left: 227.54px;
+  width: 306.97px;
+  height: 309.07px;
+  object-fit: cover;
+}
+.rectangle8 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 687.5px;
+  background-color: #1db954;
+  height: 55px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 38.18%;
+  width: 32.73%;
+  top: 30.91%;
+  right: 29.09%;
+  bottom: 30.91%;
+  left: 38.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.btnthumb-play {
+  position: absolute;
+  top: 427px;
+  left: 265px;
+  width: 55px;
+  height: 55px;
+}
+.icheart-icon1,
+.icmore-big-icon {
+  position: absolute;
+  top: 432px;
+  left: 347px;
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+}
+.icmore-big-icon {
+  top: 429px;
+  left: 402px;
+  opacity: 0.7;
+}
+.playlist1 {
+  position: absolute;
+  top: 198.96px;
+  left: 520.76px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.listselected-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  opacity: 0.1;
+}
+.were-good {
+  position: absolute;
+  width: 5.21%;
+  top: 18.52%;
+  left: 6.43%;
+  font-size: var(--font-size-base);
+  line-height: 18.19px;
+  display: inline-block;
+}
+.div2,
+.div3,
+.dua-lipa,
+.future-nostalgia-the {
+  position: absolute;
+  width: 3.43%;
+  top: 57.41%;
+  left: 6.43%;
+  display: inline-block;
+}
+.div2,
+.div3,
+.future-nostalgia-the {
+  width: 15.74%;
+  top: 33.33%;
+  left: 35.56%;
+}
+.div2,
+.div3 {
+  width: 0.61%;
+  top: 29.63%;
+  left: 70.79%;
+  font-size: var(--font-size-base);
+  opacity: 0.7;
+}
+.div3 {
+  width: 1.84%;
+  top: 31.48%;
+  left: 95.1%;
+  font-size: var(--font-size-mini);
+}
+.listselected-item {
+  position: absolute;
+  height: 81.48%;
+  width: 2.72%;
+  top: 9.26%;
+  right: 94.41%;
+  bottom: 9.26%;
+  left: 2.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div4 {
+  position: absolute;
+  width: 1.78%;
+  top: 29.63%;
+  left: 71.34%;
+  font-family: var(--font-noto-sans-cjk-kr);
+  display: inline-block;
+  opacity: 0.7;
+}
+.icheart-icon2,
+.icmore-icon,
+.listselected-inner {
+  position: absolute;
+  height: 44.44%;
+  width: 1.47%;
+  top: 29.63%;
+  right: 6%;
+  bottom: 25.93%;
+  left: 92.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icmore-icon,
+.listselected-inner {
+  top: 24.07%;
+  right: 0.86%;
+  bottom: 31.48%;
+  left: 97.67%;
+}
+.listselected-inner {
+  height: 22.59%;
+  width: 0.65%;
+  top: 38.78%;
+  right: 98.1%;
+  bottom: 38.63%;
+  left: 1.25%;
+}
+.line-div,
+.listselected {
+  position: absolute;
+  top: 561px;
+  left: 266px;
+  width: 1454px;
+  height: 54px;
+}
+.line-div {
+  top: 25.5px;
+  left: 7.2px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1634px;
+  height: 1px;
+  opacity: 0.1;
+}
+.album,
+.date-added,
+.div5,
+.title {
+  position: absolute;
+  display: inline-block;
+  opacity: 0.7;
+}
+.div5 {
+  height: 57.53%;
+  width: 0.66%;
+  top: 42.47%;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 18.19px;
+}
+.album,
+.date-added,
+.title {
+  height: 45.42%;
+  width: 2.03%;
+  top: 51.55%;
+  left: 1.54%;
+  letter-spacing: 0.11em;
+}
+.album,
+.date-added {
+  width: 2.58%;
+  left: 37.85%;
+}
+.date-added {
+  width: 4.77%;
+  left: 62.37%;
+}
+.icclock-icon,
+.line-parent {
+  position: absolute;
+  top: 514px;
+  left: 1836px;
+  width: 14px;
+  height: 14px;
+}
+.line-parent {
+  left: 258.3px;
+  width: 1640.7px;
+  height: 34.16px;
+  font-size: var(--font-size-xs);
+}
+.listdefault-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  opacity: 0;
+}
+.were-good1 {
+  position: absolute;
+  width: 5.32%;
+  top: 7.14%;
+  left: 5.33%;
+  font-size: var(--font-size-base);
+  line-height: 18.19px;
+  display: inline-block;
+}
+.div6,
+.div7,
+.dua-lipa1,
+.future-nostalgia-the1 {
+  position: absolute;
+  width: 3.5%;
+  top: 57.14%;
+  left: 5.33%;
+  display: inline-block;
+}
+.div6,
+.div7,
+.future-nostalgia-the1 {
+  width: 16.07%;
+  top: 26.7%;
+  left: 35.22%;
+}
+.div6,
+.div7 {
+  width: 0.63%;
+  top: 21.43%;
+  left: 71.05%;
+  font-size: var(--font-size-base);
+  opacity: 0.7;
+}
+.div7 {
+  width: 1.88%;
+  top: 23.81%;
+  left: 95.87%;
+  font-size: var(--font-size-mini);
+}
+.group-child2 {
+  position: absolute;
+  height: 104.76%;
+  width: 2.78%;
+  top: -4.76%;
+  right: 95.54%;
+  bottom: 0;
+  left: 1.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div8 {
+  position: absolute;
+  width: 1.81%;
+  top: 21.43%;
+  left: 71.61%;
+  font-family: var(--font-noto-sans-cjk-kr);
+  display: inline-block;
+  opacity: 0.7;
+}
+.icheart-icon3,
+.icmore-icon1 {
+  position: absolute;
+  height: 57.14%;
+  width: 1.5%;
+  top: 21.43%;
+  right: 5.25%;
+  bottom: 21.43%;
+  left: 93.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icmore-icon1 {
+  top: 14.29%;
+  right: 0;
+  bottom: 28.57%;
+  left: 98.5%;
+}
+.div9 {
+  position: absolute;
+  width: 0.56%;
+  top: 25%;
+  left: 0;
+  font-size: var(--font-size-mid);
+  line-height: 18.19px;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.7;
+}
+.were-good-parent {
+  position: absolute;
+  height: 77.78%;
+  width: 97.93%;
+  top: 16.27%;
+  right: 0.87%;
+  bottom: 5.95%;
+  left: 1.2%;
+}
+.listdefault,
+.listdefault1 {
+  position: absolute;
+  top: 628px;
+  left: 269px;
+  width: 1454px;
+  height: 54px;
+}
+.listdefault1 {
+  top: 696px;
+}
+.listdefault2,
+.listdefault3,
+.listdefault4,
+.listdefault5 {
+  position: absolute;
+  top: 764px;
+  left: 269px;
+  width: 1454px;
+  height: 54px;
+}
+.listdefault3,
+.listdefault4,
+.listdefault5 {
+  top: 832px;
+}
+.listdefault4,
+.listdefault5 {
+  top: 900px;
+}
+.listdefault5 {
+  top: 968px;
+}
+.playlist {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-circular-std);
+}
+
